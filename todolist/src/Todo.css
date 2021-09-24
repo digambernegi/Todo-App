@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Andada Pro", serif;
+}
+
+.main_div {
+  background: rgb(187, 235, 200);
+  background: linear-gradient(
+    90deg,
+    rgba(187, 235, 200, 1) 0%,
+    rgba(83, 157, 199, 1) 0%,
+    rgba(255, 0, 121, 1) 90%
+  );
+  text-align: center;
+  height: 100vh;
+}
+
+figure {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+figure img {
+  margin-top: 2rem;
+  height: 80px;
+  width: 80px;
+}
+
+input {
+  border: 2px solid violet;
+  width: 30rem;
+  padding: 0.7rem;
+}
+
+.add-btnn,
+.edit-btnn {
+  border: 1.5px solid black;
+  font-size: 38px;
+  position: absolute;
+  border-radius: 10%;
+  filter: invert(1);
+}
+
+.eachItems > h3 {
+  /* display: inline-block; */
+  /* padding: 0.4rem; */
+  /*  border: 2px solid white; */
+  width: 100%;
+  /* justify-content: center; */
+  /* place-items: center; */
+  text-align: center;
+  margin: auto;
+}
+
+.del-btn,
+.edit-btn {
+  padding: 3px;
+  /* border: 1.5px solid black; */
+  border-radius: 20%;
+  font-size: 20px;
+  align-items: center;
+}
+
+.showItems {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.eachItems {
+  border: 2px solid transparent;
+  background-color: rgba(238, 130, 238, 0.658);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  display: flex;
+  margin: 3px auto;
+  width: 25rem;
+}
+
+.show .btn {
+  cursor: pointer;
+  margin: 1rem auto;
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.show :hover {
+  transform: scale(1.1);
+  background-color: rgb(243, 81, 53);
+}
+
+.eachItems:hover {
+  transform: scale(1.1);
+}
+
+.del-btn:hover,
+.edit-btn:hover,
+.edit-btnn:hover,
+.add-btnn:hover {
+  transform: scale(1.1);
+}
