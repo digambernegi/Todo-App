@@ -1,5 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import { BiPlusCircle,BiX,BiEditAlt } from "react-icons/bi";
+import {checklist} from '../checklist.png';
 
 import './Todo.css';
 
@@ -82,7 +83,7 @@ useEffect(() => {
         <div className="main_div">
             <div className="child_div">
         <figure>
-        <img src="../checklist.png" alt="todolist" />
+        <img src={checklist} alt="todolist" />
             <h3>Todo List</h3>
         </figure>
 
